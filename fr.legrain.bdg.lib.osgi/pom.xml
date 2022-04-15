@@ -1,0 +1,118 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>fr.legrain.bdg.lib.osgi</artifactId>
+
+	<packaging>eclipse-plugin</packaging>
+  
+	<parent>
+		<groupId>fr.legrain</groupId>
+		<artifactId>fr.legrain.bdg.parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../fr.legrain.bdg.parent/pom.xml</relativePath>
+	</parent>
+	
+	<dependencies>
+	
+		<dependency>
+			<groupId>fr.legrain</groupId>
+			<artifactId>Lib</artifactId>
+			<version>2.0.13-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>fr.legrain</groupId>
+			<artifactId>fr.legrain.bdg.ejb.lib.osgi</artifactId>
+			<version>2.0.13-SNAPSHOT</version>
+		</dependency>
+		
+				<dependency>
+			<groupId>net.sf.dozer</groupId>
+			<artifactId>dozer</artifactId>
+			<version>5.5.1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.persistence</groupId>
+		    <artifactId>org.eclipse.persistence.asm</artifactId>
+		    <version>2.6.3</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.persistence</groupId>
+		    <artifactId>org.eclipse.persistence.moxy</artifactId>
+		    <version>2.6.3</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.persistence</groupId>
+		    <artifactId>org.eclipse.persistence.core</artifactId>
+		    <version>2.6.3</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.mailjet/mailjet-client -->
+		<dependency>
+		    <groupId>com.mailjet</groupId>
+		    <artifactId>mailjet-client</artifactId>
+		    <version>4.1.1</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.googlecode.libphonenumber/libphonenumber -->
+		<dependency>
+		    <groupId>com.googlecode.libphonenumber</groupId>
+		    <artifactId>libphonenumber</artifactId>
+		    <version>8.9.7</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.googlecode.libphonenumber/geocoder -->
+		<dependency>
+		    <groupId>com.googlecode.libphonenumber</groupId>
+		    <artifactId>geocoder</artifactId>
+		    <version>2.96</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.googlecode.libphonenumber/prefixmapper -->
+		<dependency>
+		    <groupId>com.googlecode.libphonenumber</groupId>
+		    <artifactId>prefixmapper</artifactId>
+		    <version>2.96</version>
+		</dependency>
+		
+		
+		
+		
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.osgi</groupId> -->
+<!-- 			<artifactId>org.osgi.core</artifactId> -->
+<!-- 			<version>5.0.0</version> -->
+<!-- 		</dependency> -->
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.primefaces</groupId> -->
+<!-- 			<artifactId>primefaces</artifactId> -->
+<!-- 			<version>5.3</version> -->
+<!-- 		</dependency> -->
+	   
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.firebirdsql.jdbc</groupId> -->
+<!-- 			<artifactId>jaybird-jdk17</artifactId> -->
+<!-- 			<version>2.2.5</version> -->
+<!-- 			<type>jar</type> -->
+<!-- 			<scope>compile</scope> -->
+
+			<!--  
+			<groupId>fr.legrain</groupId>
+			<artifactId>JayBird_2_0</artifactId>
+			<version>2.1.1-SNAPSHOT</version>
+			<type>jar</type>
+			<scope>compile</scope>
+			-->
+<!-- 		</dependency> -->
+
+		
+	</dependencies>
+	
+	
+	<version>2.0.13-SNAPSHOT</version>
+</project>
